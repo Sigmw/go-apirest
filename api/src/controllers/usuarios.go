@@ -178,7 +178,6 @@ func CriarUsuario(w http.ResponseWriter, r *http.Request) {
 
 	if erro = json.Unmarshal(corpoRequest, &usuario); erro != nil {
 		respostas.Erro(w, http.StatusBadRequest, erro)
-		fmt.Println("sexo1")
 		return
 	}
 
