@@ -17,7 +17,7 @@ const random = (length = 8) => {
 };
 $('#formulario-cadastro').on('submit', criarUsuario);
 //cria um codigo
-let code = `USA-${random(5)}`;
+let code = `SIGMA-${random(5)}`;
 captcha_message.innerText = `CAPTCHA: coloque isso como missão no habbo`;
 captcha_code.innerText = code;
 

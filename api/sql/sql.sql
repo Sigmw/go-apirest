@@ -18,7 +18,7 @@ CREATE TABLE usuarios (
 
 CREATE TABLE alistados (
     nick varchar(50) not null unique,
- ) ENGINE=INNODB;
+ ) 
 
 
 CREATE TABLE seguidores (
