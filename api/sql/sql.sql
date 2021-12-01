@@ -1,5 +1,5 @@
-CREATE DATABASE IF NOT EXISTS bopehb;
-USE bopehb;
+CREATE DATABASE IF NOT EXISTS syshb;
+USE syshb;
 
 DROP TABLE IF EXISTS publicacoes;
 DROP TABLE IF EXISTS seguidores;
